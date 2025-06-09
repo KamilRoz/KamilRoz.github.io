@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Halloween Invite</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+                border: 8px dashed orange;
+                margin: auto;
+                padding: 30px ;
+                overflow: auto;
+                font-family: serif;
+                z-index: 4;
+                width: 100%;
+            }
+            #title {
+                text-align: center;
+                color: yellow;
+                font-family: georgia, serif;
+                text-decoration: underline orange;
+                position: relative;
+                bottom: 34px;
+            }
+            h1 {
+                font-size: 80px;
+            }
+            span {
+                color: red;
+            }
+            #location {
+                color: yellow;
+                text-decoration: underline orange;
+            }
+            #details {
+                color: yellow;
+                border: 2px dashed orange;
+                width: 50%;
+                position: relative;
+                right: 15px;
+                top: 40px;
+                float: left;
+                padding: 3px;
+                font-family: Cursive;
+            }
+            #activities {
+                color: yellow;
+                border: 2px dashed orange;
+                width: 50%;
+                position: relative;
+                top: -249px;
+                left: 15px;
+                float: right;
+                padding: 3px;
+                font-family: Cursive;
+            }
+            #halloween-image {
+                float: left;
+                z-index: 3;
+                position: relative;
+                top: 92px;
+
+            }
+            #rsvp {
+                color: yellow;
+                text-align: center;
+                width: 50%;
+                position: relative;
+                float: right;
+                border: 2px dashed orange;
+                bottom: 240px;
+                left: 15px;
+                padding-left: 5px;
+                padding-bottom: 10px;
+                font-family: cursive;
+            }
+            .activity {
+                font-weight: bold;
+                font-style: italic;
+                color: orange;
+            }
+            
+            #skeleton-gif {
+                float: right;
+                position: relative;
+                bottom: 80px;
+                left: 140px;
+                width: 15%;
+                float: right;
+                margin-top: 20px;
+            }
+            #hope {
+                width: 50%;
+                text-align: center;
+                font-size: 40px;
+                float: left;
+                position: relative;
+                bottom: 284px;
+                clear: both;
+                right: 15px;
+                border: 2px dashed orange;
+                padding: 10px;
+                color: yellow;
+                font-family: cursive;
+                margin-top: 20px;
+                padding-left: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="title">
+        <h1>Halloween Bash!</h1>
+        <h2>You're invited to the Spookfest!</h2>
+        <h3>Date: <span class="important">Friday 31st October</span> Time: <span class="important">19:00pm</span></h3>
+        </div>
+        <div id= "details">
+        <h3>The details:</h3>
+        <p><span id="location">Location:</span><span> 31 Union Road, Hillsborough, S6 8TH</span></p>
+        <p>Join us for a night of frights, fun, and fiendish festivities! Expect creepy cocktails, ghoulish games, and spine-tingling surprises. Costumes are a must—come dressed to impress (or terrify)!</p>
+        </div>
+        <div id="activities">
+        <h3>Activities:</h3>
+        <ul>
+            <li><span class="activity">Costume Contest</span> – Win prizes for scariest, funniest & most creative looks!</li>
+            <li><span class="activity">Pumpkin Carving</span> – Bring your darkest designs to life.</li>
+            <li><span class="activity">Mummy Wrap Race</span> – Who can wrap their victim fastest?</li>
+            <li><span class="activity">Bobbing for Apples</span> – The classic… with a deadly twist.</li>
+            <li><span class="activity">Murder Mystery Game</span> – Can you uncover the killer?</li>
+            <li><span class="activity">Monster Mash Dance-Off</span> – Show off your zombie moves!</li>
+            <li><span class="activity">Creepy Cocktail Bar</span> – Witches’ brew & gory garnishes included.</li>
+            <li><span class="activity">Horror Trivia</span> – Test your scary movie knowledge.</li>
+        </ul>
+        </div>
+        <div id="halloween-image"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Jack-o%27-Lantern_2003-10-31.jpg" alt="Scary carved pumkin" width="275"></div>
+        <div id="rsvp">
+        <form><p>Please let us know if you can attend!</p>
+            <input type="radio" id="yes" name="confirm" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="confirm" value="No">
+            <label for="no">No</label>
+            <br><br>
+            <span id="button"><input type="submit" value="Submit"></span>
+            </form>
+        </div>
+        <div id="skeleton-gif"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/The_Skeleton_Dance_animation.gif/250px-The_Skeleton_Dance_animation.gif" alt="Gif of Skeletons Dancing" ></div>
+        <div id="hope"><p>Hope to see<br> <span class="important">YOU</span> there!</p></div>
+        <div style="clear: both;"></div>
+    </body>
+</html>
